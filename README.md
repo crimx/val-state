@@ -6,7 +6,7 @@
 
 [![Build Status](https://github.com/crimx/val-state/actions/workflows/build.yml/badge.svg)](https://github.com/crimx/val-state/actions/workflows/build.yml)
 [![npm-version](https://img.shields.io/npm/v/val-state.svg)](https://www.npmjs.com/package/val-state)
-[![Coverage Status](https://img.shields.io/coveralls/github/crimx/val-state/master)](https://coveralls.io/github/crimx/val-state?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/github/crimx/val-state/main)](https://coveralls.io/github/crimx/val-state?branch=main)
 [![minified-size](https://img.shields.io/bundlephobia/minzip/val-state)](https://bundlephobia.com/package/val-state)
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?maxAge=2592000)](http://commitizen.github.io/cz-cli/)
