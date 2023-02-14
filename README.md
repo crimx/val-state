@@ -1,7 +1,7 @@
 # [val-state](https://github.com/crimx/val-state)
 
 <p align="center">
-  <img width="200" src="https://raw.githubusercontent.com/crimx/value-enhancer/master/assets/value-enhancer.svg">
+  <img width="200" src="https://raw.githubusercontent.com/crimx/value-enhancer/main/assets/value-enhancer.svg">
 </p>
 
 [![Build Status](https://github.com/crimx/val-state/actions/workflows/build.yml/badge.svg)](https://github.com/crimx/val-state/actions/workflows/build.yml)
