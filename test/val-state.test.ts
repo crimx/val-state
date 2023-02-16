@@ -1,4 +1,4 @@
-import { describe, it, expect, jest } from "@jest/globals";
+import { describe, it, expect } from "@jest/globals";
 import { val } from "value-enhancer";
 import { assignActions, createStore } from "../src";
 
@@ -9,23 +9,13 @@ describe("createStore", () => {
     }));
     expect(store.value).toBe(1);
 
-    store.add(2);
+    store.act.add(2);
     expect(store.value).toBe(3);
   });
 
   it("should create Store without actions", () => {
     const store = createStore({ count: 1 });
     expect(store.value).toEqual({ count: 1 });
-  });
-
-  it("should throw error when action name conflicts with val property", () => {
-    const spy = jest.spyOn(console, "error").mockImplementation(() => void 0);
-    expect(() => {
-      createStore(1, () => ({
-        value: 2,
-      }));
-    }).toThrowError();
-    spy.mockRestore();
   });
 });
 
@@ -42,7 +32,7 @@ describe("assignActions", () => {
 
     expect(store$.value).toEqual({ count: 1 });
 
-    store$.add(2);
+    store$.act.add(2);
     expect(store$.value).toEqual({ count: 3 });
   });
 });

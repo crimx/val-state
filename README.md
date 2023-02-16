@@ -55,7 +55,7 @@ store$.subscribe(state => {
   console.log(state);
 });
 
-store$.increment();
+store$.act.increment();
 ```
 
 Assign actions to normal val:
@@ -74,5 +74,5 @@ const store$ = assignActions(state$, {
 
 assert(store$ === state$);
 
-store$.increment();
+store$.act.increment();
 ```
